@@ -1,37 +1,44 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akimbekov</title>
+    <title>Zamir Akimbekov</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+        }
+        #content {
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Zamir Akimbekov's Portfolio</h1>
-    <h2>I'm a web developer</h2>
+    <div id="navbar">
+        <h2><a href="./index.html" style="text-decoration: none; color: black;">Zamir Akimbekov</a></h2>
+        <div>
+            <a href="./public/about_me.html">About Me</a> | 
+            <a href="./public/blogs.html">Problem Solving</a> | 
+            <a href="./public/books.html">Book List</a>
+        </div>
+    </div>
     <hr>
-    
-    <a href="./public/movie-ranking.html">Movie Ranking Project</a>
-    <br>
-    <img src="./assets/images/movie-ranking.png" height="200">
-    <br>
-    <a href="./public/birthday-invite.html">Birthday Invite Project</a>
-    <br>
-    <img src="./assets/images/birthday-invite.png" height="200">
-    
+    <div id="content">
+        <!-- Your default content here -->
+        <p>Hey there! We all face problems daily, some big, some small. But it feels like these problems are getting a bit more complicated day by day, doesn't it?</p>
+        <p>I've noticed something worrying though. It's like we're forgetting the basics of how to solve these problems, getting lost in the complexities. I've seen it first-hand - the more complex the problem, the more we need to hold on to the basics.</p>
+        <p>So, I thought, why not revisit the core of problem-solving? Over the next few blog posts, let's go back to the fundamentals, the simple yet powerful principles that help us make sense of complex issues.</p>
+        <p>And it's not just about tackling our own problems. When we learn how to help others solve their problems, that's when we make a real difference. That's when we influence our community and our world in a big way.</p>
+        <p>I hope you're up for this journey with me. Let's dig deep, let's learn, and most importantly, let's solve some problems. Welcome aboard!</p>
+    </div>
     <hr>
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
-
 </body>
 </html>
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
